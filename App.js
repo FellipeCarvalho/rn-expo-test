@@ -4,12 +4,31 @@ import { Button, StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Olá que tal :) </Text>
-      <Text>Olá que tal :) </Text>
-      <Text>Olá que tal :) </Text>
-      <Text>Olá que tal :) </Text>
-      <Text>By Fe </Text>
-      <Button title="Entrar" OnPress={()=>{return}} />
+      <View style={{flex:1, backgroundColor:'red'}}>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+        <Text>Olá que tal </Text>
+
+        </View>
+      <View style={{flex:1, backgroundColor:'yellow'}}>
+        <Text>Olá que tal </Text></View>
+      <View style={{flex:1, backgroundColor:'green'}}>
+         <Text>Olá que tal </Text>
+      </View>
+
+      {/* <Button title="Entrar" OnPress={()=>{return}} /> */}
   
     </View>
   );
@@ -17,9 +36,12 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    // width:340,
+    // height:100,
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    marginTop: 30,
+    backgroundColor: 'gray',
+    // alignItems: 'center',
+     justifyContent: 'center',
   },
 });
